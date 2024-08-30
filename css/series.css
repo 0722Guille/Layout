@@ -1,0 +1,29 @@
+*{
+    margin: 0%;
+}
+
+h1{
+    text-align: center;
+    margin: 20px;
+}
+
+.series{
+    margin: 30px;
+    height: 350px;
+    width: 300;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: auto auto auto auto;
+    border-radius: 0.5rem;
+    
+}
+
+.series img:hover{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.series img:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+}
